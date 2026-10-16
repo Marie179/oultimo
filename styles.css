@@ -1,0 +1,39 @@
+body{
+    background-color: pink;
+}
+
+.secao-metas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.meta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 300px;
+}
+
+.meta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+img{
+    width: 200px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+
+.meta:hover{
+    transform: scale(3);
+    transition:  ;
+}
