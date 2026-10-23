@@ -1,5 +1,5 @@
 body{
-    background-color: pink;
+    background-color: rgb(255, 0, 149);
 }
 
 .secao-metas{
@@ -21,10 +21,12 @@ img{
 }
 
 .meta{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 15px;
+border: 1px solid black;
+border-radius: 25px;
+display: flex;
+justify-content: center;
+align-items: center;
+padding-right: 15px;
 }
 
 img{
@@ -34,6 +36,21 @@ img{
 
 
 .meta:hover{
-    transform: scale(3);
-    transition:  ;
+    transform: scale(1);
+    transition:  .9s;
 }
+
+h2{
+    width: 400px;
+}
+
+p{ 
+    width: 400px;
+}
+ 
+img{
+    border-radius: 10%;
+
+}
+
+footer
